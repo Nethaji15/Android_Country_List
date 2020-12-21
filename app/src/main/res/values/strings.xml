@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Listing App</string>
+    <string name="unknown_error">Something went wrong.</string>
+    <string name="net_available">Internet connection available</string>
+    <string name="net_not_available">Internet connection not available</string>
+    <string name="are_you_sure_wants_to_exit_the_app">Are you sure wants to exit the App?</string>
+    <string name="back_press"><![CDATA[<]]></string>
+    <string name="details">Details</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+</resources>
