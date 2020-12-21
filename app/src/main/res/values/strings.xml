@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Listing App</string>
+    <string name="app_name">CFL App</string>
     <string name="unknown_error">Something went wrong.</string>
     <string name="net_available">Internet connection available</string>
     <string name="net_not_available">Internet connection not available</string>
