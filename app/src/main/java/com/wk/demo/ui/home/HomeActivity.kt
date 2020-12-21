@@ -3,15 +3,14 @@ package com.wk.demo.ui.home
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.util.DisplayMetrics
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.wk.demo.R
-import dagger.android.AndroidInjection
 import kotlinx.android.synthetic.main.custom_dialog_alert.view.*
 import timber.log.Timber
 
@@ -70,7 +69,11 @@ class HomeActivity : AppCompatActivity() {
             alertDialog.dismiss()
         }
         alertDialog.show()
-        alertDialog.window!!.setLayout(840, 400)
+        val displayMetrics = DisplayMetrics()
+        windowManager.defaultDisplay.getMetrics(displayMetrics)
+        val height = displayMetrics.heightPixels
+        val width = displayMetrics.widthPixels
+        alertDialog.window!!.setLayout((width/1.5).toInt(), 400)
     }
 
     companion object {
