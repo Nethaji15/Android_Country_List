@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
                 android:textStyle="bold"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:gravity="bottom"
                 android:textColor="@color/colorWhite" />
 

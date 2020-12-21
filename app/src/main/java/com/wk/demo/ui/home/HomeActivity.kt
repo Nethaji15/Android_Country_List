@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -69,6 +70,7 @@ class HomeActivity : AppCompatActivity() {
             alertDialog.dismiss()
         }
         alertDialog.show()
+        alertDialog.window!!.setLayout(840, 400)
     }
 
     companion object {
